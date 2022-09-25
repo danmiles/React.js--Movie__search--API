@@ -4,7 +4,7 @@ import MovieCard from './MovieCard.jsx';
 import SearchIcon from '/images/search.svg';
 import '../styles/App.css';
 
-const API_URL = 'http://www.omdbapi.com?apikey=46d32f18';
+const API_URL = 'https://www.omdbapi.com?apikey=46d32f18';
 
 // Just example of object. Was inside "console log" after I'm fetched data from API.
 
