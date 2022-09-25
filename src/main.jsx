@@ -1,18 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./styles/Global.css";
-import Header from "./components/Header";
-import MainContent from "./components/MainContent";
-import Footer from "./components/Footer";
+import App from "./components/App";
 
 
+// const API_URL = 'http://www.omdbapi.com/?apikey=46d32f18';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Header />
-    <MainContent />    
-    <Footer />
+    <App />
   </React.StrictMode>
 );
 

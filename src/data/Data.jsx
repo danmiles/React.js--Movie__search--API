@@ -1,41 +1,74 @@
-export default [
+// It was just a test. Create functionality for the film description.
+export default [    
     {
-        id: 1,
-        title: "Life Lessons with Katie Zaferes",
-        description: "I will share with you what I call \"Positively Impactful Moments of Disappointment.\" Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.",
-        price: 136,
-        coverImg: "images/airbnb/1.png",
-        stats: {
-            rating: 5.0,
-            reviewCount: 6
-        },
-        location: "USA",
-        openSpots: 0,
+        Title: 'Batman',
+        Year: '1989',
+        Rated: 'PG-13',
+        Released: '23 Jun 1989',
+        Runtime: '126 min',
+        Genre: 'Action, Adventure',
+        Director: 'Tim Burton',
+        Writer: 'Bob Kane, Sam Hamm, Warren Skaaren',
+        Actors: 'Michael Keaton, Jack Nicholson, Kim Basinger',
+        Plot: 'The Dark Knight of Gotham City begins his war on crime with his first major enemy being Jack Napier, a criminal who becomes the clownishly homicidal Joker.',
+        Language: 'English, French, Spanish',
+        Country: 'United States, United Kingdom',
+        Awards: 'Won 1 Oscar. 9 wins & 26 nominations total',
+        Poster: 'https://m.media-amazon.com/images/M/MV5BZDNjOGNhN2UtNmNhMC00YjU4LWEzMmUtNzRkM2RjN2RiMjc5XkEyXkFqcGdeQXVyMTU0OTM5ODc1._V1_SX300.jpg',
+        Ratings: [
+            { Source: 'Internet Movie Database', Value: '7.5/10' },
+            { Source: 'Rotten Tomatoes', Value: '73%' },
+            { Source: 'Metacritic', Value: '69/100' },
+        ],
+        Metascore: '69',
+        imdbRating: '7.5',
+        imdbVotes: '374,877',
+        imdbID: 'tt0096895',
+        Type: 'movie',
+        DVD: '22 Aug 1997',
+        BoxOffice: '$251,409,241',
+        Production: 'N/A',
+        Website: 'N/A',
+        Response: 'True',
     },
     {
-        id: 2,
-        title: "Learn Wedding Photography",
-        description: "Interested in becoming a wedding photographer? For beginner and experienced photographers alike, join us in learning techniques required to leave the happy couple with memories that'll last a lifetime.",
-        price: 125,
-        coverImg: "images/airbnb/2.png",
-        stats: {
-            rating: 5.0,
-            reviewCount: 30
-        },
-        location: "German",
-        openSpots: 27,
-    },
-    {
-        id: 3,
-        title: "Group Mountain Biking",
-        description: "Experience the beautiful Norwegian landscape and meet new friends all while conquering rugged terrain on your mountain bike. (Bike provided!)",
-        price: 50,
-        coverImg: "images/airbnb/3.png",
-        stats: {
-            rating: 4.8,
-            reviewCount: 2
-        },
-        location: "France",
-        openSpots: 3,
+        "Title": "Spider-Man",
+        "Year": "2002",
+        "Rated": "PG-13",
+        "Released": "03 May 2002",
+        "Runtime": "121 min",
+        "Genre": "Action, Adventure, Sci-Fi",
+        "Director": "Sam Raimi",
+        "Writer": "Stan Lee, Steve Ditko, David Koepp",
+        "Actors": "Tobey Maguire, Kirsten Dunst, Willem Dafoe",
+        "Plot": "When bitten by a genetically modified spider, a nerdy, shy, and awkward high school student gains spider-like abilities that he eventually must use to fight evil as a superhero after tragedy befalls his family.",
+        "Language": "English",
+        "Country": "United States",
+        "Awards": "Nominated for 2 Oscars. 16 wins & 63 nominations total",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZDEyN2NhMjgtMjdhNi00MmNlLWE5YTgtZGE4MzNjMTRlMGEwXkEyXkFqcGdeQXVyNDUyOTg3Njg@._V1_SX300.jpg",
+        "Ratings": [
+            {
+                "Source": "Internet Movie Database",
+                "Value": "7.4/10"
+            },
+            {
+                "Source": "Rotten Tomatoes",
+                "Value": "90%"
+            },
+            {
+                "Source": "Metacritic",
+                "Value": "73/100"
+            }
+        ],
+        "Metascore": "73",
+        "imdbRating": "7.4",
+        "imdbVotes": "807,242",
+        "imdbID": "tt0145487",
+        "Type": "movie",
+        "DVD": "01 Nov 2002",
+        "BoxOffice": "$407,022,860",
+        "Production": "N/A",
+        "Website": "N/A",
+        "Response": "True"
     }
-]
+];
