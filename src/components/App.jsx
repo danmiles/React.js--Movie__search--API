@@ -65,7 +65,7 @@ const App = () => {
             return searchMovies(searchTerm);
         }
     };
-    // To display the first movies
+    // For display the first movies
     useEffect(() => {
         searchMovies('Spider man');
     }, []);

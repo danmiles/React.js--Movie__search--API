@@ -1,27 +1,28 @@
 import React from 'react';
 import '../styles/MovieCard.css';
 
-function MovieCard(props) {
+// Props by using ES6’s object destructuring
+function MovieCard({movie: { Year, Poster, Title, Type }, onClick}) {
     return (
         <div className="movie">
             <div className="year-movie">
-                <p>{props.movie.Year}</p>
+                <p>{Year}</p>
             </div>
             
             <div className='img-movie'>
                 <img 
                     src={
-                        props.movie.Poster !== 'N/A'
-                            ? props.movie.Poster
+                        Poster !== 'N/A'
+                            ? Poster
                             : 'https://via.placeholder.com/400'
                     }
-                    alt={props.movie.Title}
+                    alt={Title}
                 />
             </div>
             <div className="movie-footer">
-                <span className='type'>{props.movie.Type}</span>
-                <h3 className="title">{props.movie.Title}</h3>
-                <button className="button" onClick={props.onClick}>
+                <span className='type'>{Type}</span>
+                <h3 className="title">{Title}</h3>
+                <button className="button" onClick={onClick}>
                     Show Details
                     <span className="button-effect"></span>
                 </button>     
