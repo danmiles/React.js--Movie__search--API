@@ -6,7 +6,7 @@ import '../styles/App.css';
 
 const API_URL = 'http://www.omdbapi.com?apikey=46d32f18';
 
-// Just example of object. Was inside "console log" after I'm fetched data from API.
+// Just example of object.
 
 // const movie1 = {
 //     Title: 'Batman Begins',

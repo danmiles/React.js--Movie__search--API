@@ -135,6 +135,8 @@ const App = () => {
             ) : (
                 <div className="modal display-none"></div>
             )}
+
+            <div className="app-footer">Created by <a href="https://portfolio-denis.com/" target="_blank" rel="noopener noreferrer">Denis Rusanov</a></div>
         </div>
     );
 };
