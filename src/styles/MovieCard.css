@@ -2,8 +2,8 @@
 
 .movie-list {
     width: 100%;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 48px;
+    margin-bottom: 48px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@
 .movie {
     width: 310px;
     height: 460px;
-    margin: 1.5rem;
+    margin: 24px;
 
     /* position: relative; */
     position: relative;
@@ -100,12 +100,12 @@
 
 @media screen and (max-width: 400px) {
     .movie-list {
-        margin-top: 2rem;
+        margin-top: 32px;
     }
 
     .movie {
         width: 100%;
-        margin: 1rem;
+        margin: 16px;
     }
 }
 

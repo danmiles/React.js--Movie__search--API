@@ -11,7 +11,6 @@ import '../styles/App.css';
 import SearchIcon from '/images/search.svg';
 
 const App = () => {
-    
     //Api URL
     const api = 'https://www.omdbapi.com/?';
 
@@ -19,7 +18,7 @@ const App = () => {
     const apiKey = 'apikey=46d32f18';
 
     // Full movie description (need add &plot=full) http://www.omdbapi.com/?i=tt6320628&plot=full
-    const plotFull = '&plot=full'
+    const plotFull = '&plot=full';
 
     // UseState - Saves data from movies array after API fetched data.
     const [movies, setMovies] = useState([]);
@@ -83,10 +82,10 @@ const App = () => {
     const handleClose = () => {
         hideModal();
     };
-    
+
     return (
         <div className="app">
-            <h1 className='app-title'>MovieLand</h1>
+            <h1 className="app-title">MovieLand</h1>
 
             <div className="search">
                 <input
@@ -136,7 +135,16 @@ const App = () => {
                 <div className="modal display-none"></div>
             )}
 
-            <div className="app-footer">Created by <a href="https://portfolio-denis.com/" target="_blank" rel="noopener noreferrer">Denis Rusanov</a></div>
+            <div className="app-footer">
+                Created by{' '}
+                <a
+                    href="https://portfolio-denis.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Denis Rusanov
+                </a>
+            </div>
         </div>
     );
 };
