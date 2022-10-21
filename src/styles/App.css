@@ -104,9 +104,8 @@ body {
 .button {
     display: inline-flex;
     background-color: transparent;
-    /* width: 150px;
-    height: 40px; */
-    padding: 10px;
+    height: 40px;
+    padding: 0 10px;
     border: 2px solid var(--second-color);
     color: var(--second-color);
     position: relative;
@@ -138,12 +137,12 @@ body {
     position: absolute;
     transition: all 0.5s ease-Out;
     top: 20px;
-    left: 70px;
+    left: 50%;
     z-index: -1;
 }
 
 .button:hover .button-effect {
-    border: none;
+    /* border: none; */
     width: 200%;
     height: 500%;
     opacity: 1;
