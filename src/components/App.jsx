@@ -17,7 +17,7 @@ const App = () => {
     //api key
     const apiKey = 'apikey=46d32f18';
 
-    // Full movie description (need add &plot=full) http://www.omdbapi.com/?i=tt6320628&plot=full
+    // Full movie description for "Get Movie details" function (api + apiKey + `&i=${id}` + plotFull) http://www.omdbapi.com/?i=tt6320628&plot=full
     const plotFull = '&plot=full';
 
     // UseState - Saves data from movies array after API fetched data.
@@ -49,7 +49,7 @@ const App = () => {
         e.preventDefault();
 
         setSelectedId(id);
-        axios.get(api + apiKey + `&i=${id}` + plotFull).then((res) => {
+        axios.get(api + apiKey + `&i=${id}`).then((res) => {
             if (res) {
                 setMovieDetails(res.data);
                 showModal();
